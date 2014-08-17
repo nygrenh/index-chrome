@@ -1,4 +1,10 @@
-var indexUrl = "https://theindex.herokuapp.com/";
+var indexUrl;
+chrome.storage.sync.get({
+  indexUrl: "https://theindex.herokuapp.com/"
+}, function(items) {
+  indexUrl = items.indexUrl;
+});
+
 var frame = document.getElementById("frame");
 var loadHandler = function() {
   frame.removeEventListener('load', loadHandler);
