@@ -1,0 +1,35 @@
+input {
+  border: 1px solid #BFBFBF;
+  border-radius: 2px;
+  box-sizing: border-box;
+  color: #444;
+  margin: 0;
+  padding: 3px;
+  padding-bottom: 4px;
+  width: 100%;
+  margin-top: 2px;
+}
+button {
+  background-color: #0073d9;
+  border: 1px solid #3185ca;
+  border-radius: 2px;
+  color: white;
+  display: inline-block;
+  font-size: 13px;
+  font-weight: bold;
+  height: 32px;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 6px;
+}
+button:hover {
+  background-color: #006ec8;
+}
+#container {
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+h1 {
+  text-align: center;
+}
